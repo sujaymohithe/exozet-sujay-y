@@ -38,7 +38,7 @@ Application is built from scratch using command `npx create-react-app github_res
 No redux is used in this application for managing application state as it is a simple application.
 
 ### `react-router`
-No routing is used as this application consists of only a single page.
+No routing is used as this application consists of only a single page. This application contains single page url and does not contain any navigation url.
 
 ### `API`
 ResumeAPI.js implements 2 methods getProfileData and getReposData which connects with GitHub API https://api.github.com/ .Please refer https://developer.github.com/ for more details. Axios is used for supporting promise, error handling and callbacks.
