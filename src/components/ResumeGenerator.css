@@ -1,0 +1,55 @@
+header {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+header h2 {
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+input[type = text] {
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 75%;
+    border: 2px solid #444;
+    border-radius: 4px;
+    color: #444;
+    font-size: 18px;
+    padding: 5px;
+}
+
+button {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 20%;
+    height: 44px;
+    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #444;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: dimgray;
+}
+
+/* Paragraph */
+.content p {
+    font-size: 18px;
+    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+}
+
+/* Form Input */
+.frmInput {
+    padding-bottom: 100px;
+}
+
+.error-msg{
+    color: red;
+}

@@ -1,0 +1,88 @@
+header {
+    margin: 2.5em 0 3em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.widget h1{
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.widget h2{
+    font-size: 120%;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.res-gf{
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.articleHeader{
+    width: 15%;
+    float: left;
+}
+.articleContent{
+    width: 75%;
+    float: left;
+    margin-left: 10%;
+}
+
+.articleHeader h2{
+    text-transform: none;
+}
+
+.articleContent h2{
+    text-transform: none;
+    font-weight: normal;
+}
+
+.repo {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.repo:last-child {
+    border-bottom: 0px;
+}
+
+.repo p {
+    margin: 0.75em 0 3em 0;
+    font-size: 115%;
+}
+
+a {
+    text-decoration: none;
+    color : #990003;
+}
+
+.repo h3{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.widget li {
+  list-style: none;
+}
+
+.articleContent ul{
+    padding-left: 0px;
+}
+
+.nav-link {
+    float : right;
+}
+
+footer p {
+    padding-bottom: 50px;
+    text-align: center;
+}
